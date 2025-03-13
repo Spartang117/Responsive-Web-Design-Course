@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitcoin Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Bitcoin Basics</header>
+    <a class="nav-link" href="#What_is_Bitcoin">What is Bitcoin</a>
+    <a class="nav-link" href="#Blockchain_Technology">Blockchain Technology</a>
+    <a class="nav-link" href="#Mining_Process">Mining Process</a>
+    <a class="nav-link" href="#Private_and_Public_Keys">Private and Public Keys</a>
+    <a class="nav-link" href="#Bitcoin_Transactions">Bitcoin Transactions</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="What_is_Bitcoin">
+      <header>What is Bitcoin</header>
+      <p>Bitcoin is a decentralized digital currency created in 2009 by an unknown person or group using the pseudonym Satoshi Nakamoto.</p>
+      <p>It operates without a central authority, relying on peer-to-peer technology and cryptography.</p>
+      <code>Decentralized: No central bank controls Bitcoin.</code>
+    </section>
+
+    <section class="main-section" id="Blockchain_Technology">
+      <header>Blockchain Technology</header>
+      <p>The blockchain is the underlying technology of Bitcoin, a public ledger that records all transactions.</p>
+      <p>Each block contains a list of transactions, a timestamp, and a cryptographic hash of the previous block.</p>
+      <code>Block Hash: SHA-256 algorithm</code>
+      <ul>
+        <li>Immutable: Once added, data cannot be altered.</li>
+        <li>Distributed: Copies exist across many nodes.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Mining_Process">
+      <header>Mining Process</header>
+      <p>Bitcoin mining involves validating transactions and adding them to the blockchain.</p>
+      <p>Miners solve complex mathematical problems using computational power to earn rewards in Bitcoin.</p>
+      <code>Proof of Work: Consensus mechanism</code>
+      <ul>
+        <li>Difficulty adjusts every 2016 blocks.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Private_and_Public_Keys">
+      <header>Private and Public Keys</header>
+      <p>Bitcoin uses cryptography with private and public keys to secure transactions.</p>
+      <p>A public key is your wallet address; a private key is secret and signs transactions.</p>
+      <code>ECDSA: Elliptic Curve Digital Signature Algorithm</code>
+      <ul>
+        <li>Never share your private key!</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Bitcoin_Transactions">
+      <header>Bitcoin Transactions</header>
+      <p>Transactions are transfers of Bitcoin between wallet addresses, recorded on the blockchain.</p>
+      <p>Each transaction includes inputs (source of funds) and outputs (destination).</p>
+      <p>Fees are paid to miners to prioritize processing.</p>
+      <code>UTXO: Unspent Transaction Output</code>
+      <ul>
+        <li>Confirmations ensure transaction validity.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
